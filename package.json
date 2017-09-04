@@ -1,0 +1,22 @@
+{
+  "name": "bittrexpumper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basicBitrexQuery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulfey/bittrexPUMP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wulfey/bittrexPUMP/issues"
+  },
+  "homepage": "https://github.com/wulfey/bittrexPUMP#readme",
+  "dependencies": {
+    "node.bittrex.api": "^0.5.1"
+  }
+}
