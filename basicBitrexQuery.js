@@ -53,8 +53,10 @@ var intervalObject = setInterval(
         nextResult = parsedBody.result;
         if (previousResult.length === nextResult.length) {
           nextResult.forEach((element, i, array) => {
+            // critical percentage difference calculation
             dif = nextResult[i].Last / previousResult[i].Last * 100 - 100;
-            // console.log(dif);
+
+            // if the delta is positive, add it to the helpers
             if (dif > 0) {
               numbersToNamesHash[dif] = {
                 name: element.MarketName,
@@ -77,12 +79,11 @@ var intervalObject = setInterval(
 
         //iterate through the difference array and log out names and percentages
         differenceArray.forEach((elem, i, array) => {
+          var tick = numbersToNamesHash[elem];
           console.log(
-            `${numbersToNamesHash[elem].name} increased ${elem.toFixed(
+            `${tick.name} increased ${elem.toFixed(
               5
-            )}% from ${numbersToNamesHash[elem].prev} to ${numbersToNamesHash[
-              elem
-            ].last}`
+            )}% from ${tick.prev} to ${tick.last}`
           );
         });
         console.log("---------------");
