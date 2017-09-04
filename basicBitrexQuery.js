@@ -56,7 +56,11 @@ var intervalObject = setInterval(
             dif = nextResult[i].Last / previousResult[i].Last * 100 - 100;
             // console.log(dif);
             if (dif > 0) {
-              numbersToNamesHash[dif] = element.MarketName;
+              numbersToNamesHash[dif] = {
+                name: element.MarketName,
+                last: nextResult[i].Last,
+                prev: previousResult[i].Last
+              };
               differenceArray.push(dif);
             }
           });
@@ -74,7 +78,11 @@ var intervalObject = setInterval(
         //iterate through the difference array and log out names and percentages
         differenceArray.forEach((elem, i, array) => {
           console.log(
-            `${numbersToNamesHash[elem]} increased ${elem.toFixed(5)}%`
+            `${numbersToNamesHash[elem].name} increased ${elem.toFixed(
+              5
+            )}% from ${numbersToNamesHash[elem].prev} to ${numbersToNamesHash[
+              elem
+            ].last}`
           );
         });
         console.log("---------------");
