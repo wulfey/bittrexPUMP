@@ -26,10 +26,7 @@ var previousResult = [];
 //load up an initial result from the API call
 request(reqOptions)
   .then(function(parsedBody) {
-    previousResult = JSON.stringify(parsedBody, null, 2);
     previousResult = parsedBody.result;
-    // console.log(previousResult[258]);
-    // console.log("Length = " + previousResult.length);
   })
   .catch(function(err) {
     console.log("request failed : " + err);
@@ -68,10 +65,13 @@ var intervalObject = setInterval(
             "WARNING: length match failure, different number of coins returned. Comparison failed."
           );
         }
+
+        //sort it in ascending order
         differenceArray.sort((a, b) => {
           return b - a;
         });
 
+        //iterate through the difference array and log out names and percentages
         differenceArray.forEach((elem, i, array) => {
           console.log(
             `${numbersToNamesHash[elem]} increased ${elem.toFixed(5)}%`
