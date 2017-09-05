@@ -1,25 +1,43 @@
+//==============================================
+//INSTALLATION
+//==============================================
 // install node
 // install npm
 // move to directory
 // : npm init
 // : npm install
+// : npm install --save request-promise
 // : npm install --save node.bittrex.api"
 // : node basicBitrexQuery.js
 // this will dump the basic query into the console
 
-// const keys = require("./keys");
-const request = require("request-promise");
-const bittrex = require("./node.bittrex.api");
-const TEST_URI = "https://bittrex.com/api/v1.1/public/getmarketsummaries";
-
-//Configuration VARIABLES
+//===============================================
+//VARIABLES
 //===============================================
 //Variables that can be modified
-var percentDif = -1000; //minimum % gain
-var timeInterval = 40000; //time to wait before iterations in milliseconds
-var iterations = 0; //number of iterations to run script, set to <=0 to run infinite
+var percentDif = 5; //variable to check for percentage difference check
+var timeInterval = 30000; //time to wait before iterations in milliseconds
+var timeIntervalSecs = timeInterval / 1000;
+var iterations = 20; //number of iterations to run script
 //==============================================
 
+
+
+//Variables (do not modify)
+var request = require("request-promise"); //What is this?
+var bittrex = require("node.bittrex.api"); //What is this?
+const TEST_URI = "https://bittrex.com/api/v1.1/public/getmarketsummaries"; //bittrex API
+var previousResult = []; //array to store first check of last price
+var nextResult = []; //array to store second check of last price
+var count = 0; //variable to count number of iterations
+var numbersToNamesHash = {}; //array to store ticker name and both last prices
+var differenceArray = []; //array to store difference between last prices
+var previousHash = {};
+var nextHash = {};
+var dif = 0; //variable to store percentage difference
+//=====================================================
+
+//What is this?
 var reqOptions = {
   method: "GET",
   uri: TEST_URI,
@@ -28,10 +46,6 @@ var reqOptions = {
   },
   json: true
 };
-
-var previousResult = [];
-// helper to enable name to name comparisons of values
-var previousHash = {};
 
 //load up an initial result from the API call
 request(reqOptions)
@@ -46,18 +60,29 @@ request(reqOptions)
     console.log("request failed : " + err);
   });
 
-//this is the next thing returned by the interval caller
-var nextResult = [];
-
-//helper variables to store values for the comparisons
-var count = 0;
-var numbersToNamesHash = {};
-var differenceArray = [];
-var nextHash = {};
-var dif = 0;
+//Function to keep track of detected Pumps
+// function keepTrackMarkets(markets) {
+//   var marketsArray = markets;           //setup array for strings
+//   var marketsObject = {};               //Setup object for markets + strength
+//
+//   for (var i=0; i<marketsArray.length; i++) {
+//     var marketToCheck = marketsArray[i];
+//     if (marketsObject[marketToCheck] == undefined) {
+//       //market doesn't exist, add it as a key and set strength value to 1
+//       marketsObject[marketToCheck] = 1;
+//     } else {
+//       //market exist, increment strength by 1
+//       marketsObject[marketToCheck] += 1;
+//     }
+//   }
+// }
 
 var intervalObject = setInterval(
   function() {
+    console.log("---------------");
+    console.log(`Starting iteration ${count} of ${iterations}`);
+    console.log(`Seconds between iterations ${timeIntervalSecs}`);
+
     request(reqOptions)
       .then(function(parsedBody) {
         // reset the storage arrays
@@ -125,8 +150,6 @@ var intervalObject = setInterval(
         console.log("request failed : " + err);
       });
     count++;
-
-    // adjust the count here or comment this out to disable automatic shutdowns
 
     if (iterations > 0) {
       if (count == iterations) {
