@@ -1,0 +1,1811 @@
+{
+  "markets": [
+    {
+      "name": "BTC-1ST",
+      "lastArray": [
+        0.00010124
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-2GIVE",
+      "lastArray": [
+        0.00000124
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ABY",
+      "lastArray": [
+        0.00000177
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ADT",
+      "lastArray": [
+        0.00001107
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ADX",
+      "lastArray": [
+        0.0002185
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-AEON",
+      "lastArray": [
+        0.00020142
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-AGRS",
+      "lastArray": [
+        0.0000825
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-AMP",
+      "lastArray": [
+        0.00004277
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ANT",
+      "lastArray": [
+        0.00051078
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-APX",
+      "lastArray": [
+        0.0019958
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ARDR",
+      "lastArray": [
+        0.00002978,
+        0.00003016
+      ],
+      "pumps": 1
+    },
+    {
+      "name": "BTC-ARK",
+      "lastArray": [
+        0.0005625
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-AUR",
+      "lastArray": [
+        0.0001511
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BAT",
+      "lastArray": [
+        0.0000503
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BAY",
+      "lastArray": [
+        0.000005
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BCC",
+      "lastArray": [
+        0.12333333
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BCY",
+      "lastArray": [
+        0.00009019
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BITB",
+      "lastArray": [
+        7.5e-7
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BLITZ",
+      "lastArray": [
+        0.00042688
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BLK",
+      "lastArray": [
+        0.00005524
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BLOCK",
+      "lastArray": [
+        0.00560043,
+        0.00563228
+      ],
+      "pumps": 1
+    },
+    {
+      "name": "BTC-BNT",
+      "lastArray": [
+        0.00058886
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BRK",
+      "lastArray": [
+        0.00003712
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BRX",
+      "lastArray": [
+        0.00012729
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BSD",
+      "lastArray": [
+        0.00008702
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BTA",
+      "lastArray": [
+        0.00012512
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BTCD",
+      "lastArray": [
+        0.03109,
+        0.03149811
+      ],
+      "pumps": 1
+    },
+    {
+      "name": "BTC-BTS",
+      "lastArray": [
+        0.00002857
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BURST",
+      "lastArray": [
+        0.00000269
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-BYC",
+      "lastArray": [
+        0.00013252
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CANN",
+      "lastArray": [
+        0.00000613
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CFI",
+      "lastArray": [
+        0.00003902
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CLAM",
+      "lastArray": [
+        0.00168177
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CLOAK",
+      "lastArray": [
+        0.00115425
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CLUB",
+      "lastArray": [
+        0.00008687
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-COVAL",
+      "lastArray": [
+        0.00000126
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CPC",
+      "lastArray": [
+        0.00013799
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CRB",
+      "lastArray": [
+        0.000165
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CRW",
+      "lastArray": [
+        0.00034224
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CURE",
+      "lastArray": [
+        0.00004903
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-CVC",
+      "lastArray": [
+        0.00009679
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DAR",
+      "lastArray": [
+        0.00008038
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DASH",
+      "lastArray": [
+        0.07429634
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DCR",
+      "lastArray": [
+        0.00738
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DCT",
+      "lastArray": [
+        0.00020002
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DGB",
+      "lastArray": [
+        0.00000436
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DGD",
+      "lastArray": [
+        0.01910999
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DMD",
+      "lastArray": [
+        0.00135631
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DOGE",
+      "lastArray": [
+        4.4e-7
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DOPE",
+      "lastArray": [
+        0.00000604
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DRACO",
+      "lastArray": [
+        0.0000031
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DTB",
+      "lastArray": [
+        0.00014119
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-DYN",
+      "lastArray": [
+        0.000526
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-EBST",
+      "lastArray": [
+        0.00002946
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-EDG",
+      "lastArray": [
+        0.00014174
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-EFL",
+      "lastArray": [
+        0.000027
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-EGC",
+      "lastArray": [
+        0.000042
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-EMC",
+      "lastArray": [
+        0.00024868
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-EMC2",
+      "lastArray": [
+        0.00000933
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ENRG",
+      "lastArray": [
+        0.0000277
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ERC",
+      "lastArray": [
+        0.0000985
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ETC",
+      "lastArray": [
+        0.00400566
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ETH",
+      "lastArray": [
+        0.07278927
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-EXCL",
+      "lastArray": [
+        0.00027229
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-EXP",
+      "lastArray": [
+        0.00074915
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-FAIR",
+      "lastArray": [
+        0.00013908
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-FCT",
+      "lastArray": [
+        0.00584519
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-FLDC",
+      "lastArray": [
+        0.0000035
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-FLO",
+      "lastArray": [
+        0.0000189
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-FTC",
+      "lastArray": [
+        0.00001336
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-FUN",
+      "lastArray": [
+        0.00000609
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GAM",
+      "lastArray": [
+        0.0024
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GAME",
+      "lastArray": [
+        0.00042444
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GBG",
+      "lastArray": [
+        0.0000206
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GBYTE",
+      "lastArray": [
+        0.07525625
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GCR",
+      "lastArray": [
+        0.00001097
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GEO",
+      "lastArray": [
+        0.00030005
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GLD",
+      "lastArray": [
+        0.00002486
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GNO",
+      "lastArray": [
+        0.03296631
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GNT",
+      "lastArray": [
+        0.00008203
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GOLOS",
+      "lastArray": [
+        0.00003142
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GRC",
+      "lastArray": [
+        0.0000087
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GRS",
+      "lastArray": [
+        0.00002716
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-GUP",
+      "lastArray": [
+        0.0000459
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-HMQ",
+      "lastArray": [
+        0.00002605
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-INCNT",
+      "lastArray": [
+        0.00004348
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-INFX",
+      "lastArray": [
+        0.00011567
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-IOC",
+      "lastArray": [
+        0.000567
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ION",
+      "lastArray": [
+        0.00031177
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-IOP",
+      "lastArray": [
+        0.00016
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-KMD",
+      "lastArray": [
+        0.00075399
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-KORE",
+      "lastArray": [
+        0.00071
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-LBC",
+      "lastArray": [
+        0.0000734
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-LGD",
+      "lastArray": [
+        0.00032902
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-LMC",
+      "lastArray": [
+        0.00000853
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-LSK",
+      "lastArray": [
+        0.00144057
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-LTC",
+      "lastArray": [
+        0.01686114
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-LUN",
+      "lastArray": [
+        0.00216386
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-MAID",
+      "lastArray": [
+        0.00013883
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-MCO",
+      "lastArray": [
+        0.002275
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-MEME",
+      "lastArray": [
+        0.000032
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-MLN",
+      "lastArray": [
+        0.01684204
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-MONA",
+      "lastArray": [
+        0.00011581
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-MTL",
+      "lastArray": [
+        0.002524
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-MUE",
+      "lastArray": [
+        0.00003143
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-MUSIC",
+      "lastArray": [
+        0.00000708
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-MYST",
+      "lastArray": [
+        0.00028123
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-NAV",
+      "lastArray": [
+        0.00029898,
+        0.00030058
+      ],
+      "pumps": 1
+    },
+    {
+      "name": "BTC-NBT",
+      "lastArray": [
+        0.00022843
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-NEO",
+      "lastArray": [
+        0.00535
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-NEOS",
+      "lastArray": [
+        0.00089329
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-NLG",
+      "lastArray": [
+        0.00002913
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-NMR",
+      "lastArray": [
+        0.00553453
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-NXC",
+      "lastArray": [
+        0.00005767
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-NXS",
+      "lastArray": [
+        0.00065552
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-NXT",
+      "lastArray": [
+        0.00002171
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-OK",
+      "lastArray": [
+        0.00006255
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-OMG",
+      "lastArray": [
+        0.00257
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-OMNI",
+      "lastArray": [
+        0.0065832
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-PART",
+      "lastArray": [
+        0.00260602
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-PAY",
+      "lastArray": [
+        0.0007182
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-PDC",
+      "lastArray": [
+        0.000031
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-PINK",
+      "lastArray": [
+        0.00000717
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-PIVX",
+      "lastArray": [
+        0.00080949
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-PKB",
+      "lastArray": [
+        0.00008915
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-POT",
+      "lastArray": [
+        0.0000222
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-PPC",
+      "lastArray": [
+        0.00042007
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-PTC",
+      "lastArray": [
+        0.00001204,
+        0.00001209
+      ],
+      "pumps": 1
+    },
+    {
+      "name": "BTC-PTOY",
+      "lastArray": [
+        0.00007998
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-QRL",
+      "lastArray": [
+        0.00013587
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-QTUM",
+      "lastArray": [
+        0.00275
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-QWARK",
+      "lastArray": [
+        0.00006069,
+        0.00006071
+      ],
+      "pumps": 1
+    },
+    {
+      "name": "BTC-RADS",
+      "lastArray": [
+        0.00157001
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-RBY",
+      "lastArray": [
+        0.00013966
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-RDD",
+      "lastArray": [
+        3.1e-7
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-REP",
+      "lastArray": [
+        0.00521141
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-RISE",
+      "lastArray": [
+        0.00008137
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-RLC",
+      "lastArray": [
+        0.00013647
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SAFEX",
+      "lastArray": [
+        0.00000269
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SBD",
+      "lastArray": [
+        0.00024298
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SC",
+      "lastArray": [
+        0.00000176
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SEQ",
+      "lastArray": [
+        0.00003575
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SHIFT",
+      "lastArray": [
+        0.00030723
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SIB",
+      "lastArray": [
+        0.000355
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SLR",
+      "lastArray": [
+        0.00004345
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SLS",
+      "lastArray": [
+        0.00363758
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SNGLS",
+      "lastArray": [
+        0.00003501
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SNRG",
+      "lastArray": [
+        0.00033402
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SNT",
+      "lastArray": [
+        0.00000762
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SPHR",
+      "lastArray": [
+        0.000635
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SPR",
+      "lastArray": [
+        0.00043
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-START",
+      "lastArray": [
+        0.00000945
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-STEEM",
+      "lastArray": [
+        0.0003144
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-STORJ",
+      "lastArray": [
+        0.00015469
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-STRAT",
+      "lastArray": [
+        0.00135
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SWIFT",
+      "lastArray": [
+        0.00028731
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SWT",
+      "lastArray": [
+        0.00039572
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SYNX",
+      "lastArray": [
+        0.000035
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-SYS",
+      "lastArray": [
+        0.000069
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-THC",
+      "lastArray": [
+        0.0000024
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-TIME",
+      "lastArray": [
+        0.00477862
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-TKN",
+      "lastArray": [
+        0.0003819
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-TKS",
+      "lastArray": [
+        0.0004671
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-TRIG",
+      "lastArray": [
+        0.000175
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-TRST",
+      "lastArray": [
+        0.00006383
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-TRUST",
+      "lastArray": [
+        0.00001248
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-TX",
+      "lastArray": [
+        0.00008706
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-UBQ",
+      "lastArray": [
+        0.00052154
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-UNB",
+      "lastArray": [
+        0.0000572
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-UNO",
+      "lastArray": [
+        0.01972195
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-VIA",
+      "lastArray": [
+        0.000316
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-VOX",
+      "lastArray": [
+        0.000013
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-VRC",
+      "lastArray": [
+        0.00009531
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-VRM",
+      "lastArray": [
+        0.00054146
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-VTC",
+      "lastArray": [
+        0.00019615
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-VTR",
+      "lastArray": [
+        0.0000469
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-WAVES",
+      "lastArray": [
+        0.00110709
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-WINGS",
+      "lastArray": [
+        0.00015498
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XAUR",
+      "lastArray": [
+        0.00004256
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XCP",
+      "lastArray": [
+        0.00295862
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XDN",
+      "lastArray": [
+        5.9e-7
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XEL",
+      "lastArray": [
+        0.000108
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XEM",
+      "lastArray": [
+        0.00006688
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XLM",
+      "lastArray": [
+        0.00000428
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XMG",
+      "lastArray": [
+        0.00005034
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XMR",
+      "lastArray": [
+        0.02625449
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XMY",
+      "lastArray": [
+        6.1e-7
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XRP",
+      "lastArray": [
+        0.00004927,
+        0.0000496
+      ],
+      "pumps": 1
+    },
+    {
+      "name": "BTC-XST",
+      "lastArray": [
+        0.0000368
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XVC",
+      "lastArray": [
+        0.00009976
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XVG",
+      "lastArray": [
+        0.00000152,
+        0.00000153
+      ],
+      "pumps": 1
+    },
+    {
+      "name": "BTC-XWC",
+      "lastArray": [
+        0.00000225
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-XZC",
+      "lastArray": [
+        0.00251667
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ZCL",
+      "lastArray": [
+        0.00050505
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ZEC",
+      "lastArray": [
+        0.0528
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "BTC-ZEN",
+      "lastArray": [
+        0.0019132
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-1ST",
+      "lastArray": [
+        0.00139386
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-ADT",
+      "lastArray": [
+        0.000154
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-ADX",
+      "lastArray": [
+        0.00302403
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-ANT",
+      "lastArray": [
+        0.00692392
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-BAT",
+      "lastArray": [
+        0.00069019
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-BCC",
+      "lastArray": [
+        1.72032037
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-BNT",
+      "lastArray": [
+        0.0081
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-BTS",
+      "lastArray": [
+        0.000409
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-CFI",
+      "lastArray": [
+        0.00054441
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-CRB",
+      "lastArray": [
+        0.00226088
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-CVC",
+      "lastArray": [
+        0.00132889
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-DASH",
+      "lastArray": [
+        1.03401
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-DGB",
+      "lastArray": [
+        0.00005875
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-DGD",
+      "lastArray": [
+        0.26026011
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-ETC",
+      "lastArray": [
+        0.05519999
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-FCT",
+      "lastArray": [
+        0.08131954
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-FUN",
+      "lastArray": [
+        0.00008416
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-GNO",
+      "lastArray": [
+        0.46199655
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-GNT",
+      "lastArray": [
+        0.0011356
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-GUP",
+      "lastArray": [
+        0.00064532
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-HMQ",
+      "lastArray": [
+        0.0003531
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-LGD",
+      "lastArray": [
+        0.00460231
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-LTC",
+      "lastArray": [
+        0.23255304
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-LUN",
+      "lastArray": [
+        0.02944853
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-MCO",
+      "lastArray": [
+        0.031502
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-MTL",
+      "lastArray": [
+        0.03545599
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-MYST",
+      "lastArray": [
+        0.00391158
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-NEO",
+      "lastArray": [
+        0.074
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-NMR",
+      "lastArray": [
+        0.07379326
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-OMG",
+      "lastArray": [
+        0.035318
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-PAY",
+      "lastArray": [
+        0.00980003
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-PTOY",
+      "lastArray": [
+        0.00108792
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-QRL",
+      "lastArray": [
+        0.00192889
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-QTUM",
+      "lastArray": [
+        0.03780036
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-REP",
+      "lastArray": [
+        0.072222
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-RLC",
+      "lastArray": [
+        0.00185223
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-SC",
+      "lastArray": [
+        0.00002448
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-SNGLS",
+      "lastArray": [
+        0.00048688
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-SNT",
+      "lastArray": [
+        0.00010456
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-STORJ",
+      "lastArray": [
+        0.00211444
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-STRAT",
+      "lastArray": [
+        0.0187
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-TIME",
+      "lastArray": [
+        0.06550554
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-TKN",
+      "lastArray": [
+        0.00527376
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-TRST",
+      "lastArray": [
+        0.00086707
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-WAVES",
+      "lastArray": [
+        0.01545299
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-WINGS",
+      "lastArray": [
+        0.00216792
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-XEM",
+      "lastArray": [
+        0.00093563
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-XLM",
+      "lastArray": [
+        0.0000585
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-XMR",
+      "lastArray": [
+        0.36944085
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-XRP",
+      "lastArray": [
+        0.00068001
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "ETH-ZEC",
+      "lastArray": [
+        0.721
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-BCC",
+      "lastArray": [
+        546.19999962
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-BTC",
+      "lastArray": [
+        4391.11
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-DASH",
+      "lastArray": [
+        329.99999999
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-ETC",
+      "lastArray": [
+        17.6
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-ETH",
+      "lastArray": [
+        320.9
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-LTC",
+      "lastArray": [
+        74.77299954
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-NEO",
+      "lastArray": [
+        23.5
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-XMR",
+      "lastArray": [
+        115.80000001
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-XRP",
+      "lastArray": [
+        0.217
+      ],
+      "pumps": 0
+    },
+    {
+      "name": "USDT-ZEC",
+      "lastArray": [
+        234.10199997
+      ],
+      "pumps": 0
+    }
+  ]
+}

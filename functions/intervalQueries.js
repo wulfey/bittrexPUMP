@@ -90,7 +90,6 @@ module.exports = {
                 next: nextHash[market]
               };
               // differenceArray can later be sorted and operated on, use the dif to access other data in the hash above
-              differenceArray.push(dif);
 
               let entry = db
                 .get("markets")
@@ -113,6 +112,8 @@ module.exports = {
                   pumps: pumps
                 })
                 .write();
+
+              differenceArray.push([dif, pumps]);
             }
           });
 
@@ -125,18 +126,21 @@ module.exports = {
 
           //sort differenceArray in ascending order
           differenceArray.sort((a, b) => {
-            return b - a;
+            return b[0] - a[0];
           });
 
           //iterate through the difference array and log out names and percentages
           differenceArray.forEach((elem, i, array) => {
-            var tick = numbersToNamesHash[elem];
+            var tick = numbersToNamesHash[elem[0]];
+
             console.log(
-              `${tick.MarketName} ${elem > 0
+              `${tick.MarketName} ${elem[0] > 0
                 ? "increased"
-                : "decreased"} ${elem.toFixed(
+                : "decreased"} ${elem[0].toFixed(
                 5
-              )}% from ${tick.prev} to ${tick.next}`
+              )}% from ${tick.prev} to ${tick.next} ${elem[1] > 1
+                ? "!! " + elem[1] + " pumps!! "
+                : ""}`
             );
           });
           console.log("---------------");
