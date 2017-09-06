@@ -1,5 +1,4 @@
 const request = require("request-promise");
-const bittrex = require("./node.bittrex.api");
 const DEFAULT_URI = "https://bittrex.com/api/v1.1/public/getmarketsummaries";
 
 var defaultReqOptions = {

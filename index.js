@@ -1,3 +1,3 @@
-var MenuRunner = require("./requiredFunctions/menuRunner");
+var MenuRunner = require("./functions/menuRunner");
 
 MenuRunner.menuRunner();

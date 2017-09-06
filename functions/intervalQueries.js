@@ -1,15 +1,18 @@
 var APIqueries = require("./queryBittrex");
+var _ = require("lodash");
+const low = require("lowdb");
+const FileSync = require("lowdb/adapters/FileSync");
+const adapter = new FileSync(`./data/db${_.now()}.json`);
 
-var defaultConfigOptions = {
-  percentDif: 0.3,
-  timeInterval: 20000,
-  iterations: 0
-};
+// Set some defaults
 
 module.exports = {
   // primary query on main API URI
   intervalQueryRunner: (configOptions = defaultConfigOptions) => {
     //Set VARIABLES
+    const db = low(adapter);
+    db.defaults({ markets: [] }).write();
+
     var percentDif = configOptions.percentDif;
     var timeInterval = configOptions.timeInterval;
     var iterations = configOptions.iterations;
@@ -21,8 +24,19 @@ module.exports = {
       // results array is very large, 259 entries, each result has many subfields
       previousResultArray = JSONResults.result;
       // this loads the previous hash with ~ {BTC-ETH: 0.4, ...}
+      // Add a post
+
       previousResultArray.forEach(result => {
         previousHash[result.MarketName] = result.Last;
+        tempName = result.MarketName;
+        db
+          .get("markets")
+          .push({
+            name: result.MarketName,
+            lastArray: [result.Last],
+            pumps: 0
+          })
+          .write();
       });
       // console.log(previousResultArray[0]);
       // console.log(previousHash[previousResultArray[0].MarketName]);
@@ -60,10 +74,15 @@ module.exports = {
 
           //for each key in the nextHash, check its different with previous hash
           Object.keys(nextHash).forEach(market => {
-            dif = nextHash[market] / previousHash[market] * 100 - 100;
+            let temp =
+              (nextHash[market] - previousHash[market]) / previousHash[market];
+            // console.log(temp);
+            dif = temp * 100;
 
             // if the delta is non0 and > config, then put it in differenceArray
+
             if (dif != 0 && dif > percentDif) {
+              // this could COLLIDE
               // numbersToNamesHash stores data about a market retrievable by dif
               numbersToNamesHash[dif] = {
                 MarketName: market,
@@ -72,6 +91,28 @@ module.exports = {
               };
               // differenceArray can later be sorted and operated on, use the dif to access other data in the hash above
               differenceArray.push(dif);
+
+              let entry = db
+                .get("markets")
+                .find({ name: market })
+                .value();
+
+              let lastArray = entry.lastArray;
+              lastArray.push(nextHash[market]);
+              let pumps = entry.pumps + 1;
+
+              // console.log("%%%%%%%%%%%%%");
+              // console.log(lastArray);
+              // console.log("%%%%%%%%%%%%%");
+
+              db
+                .get("markets")
+                .find({ name: market })
+                .assign({
+                  lastArray: lastArray,
+                  pumps: pumps
+                })
+                .write();
             }
           });
 

@@ -18,6 +18,8 @@
   "homepage": "https://github.com/wulfey/bittrexPUMP#readme",
   "dependencies": {
     "gallop": "^0.2.0",
+    "lodash": "^4.17.4",
+    "lowdb": "^1.0.0",
     "node.bittrex.api": "^0.5.1",
     "request-promise": "^4.2.1"
   }

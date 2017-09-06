@@ -1,6 +1,8 @@
 var readline = require("readline");
 var IntervalQueries = require("./intervalQueries");
 
+// add in default config options
+
 module.exports = {
   // primary query on main API URI
   menuRunner: () => {
@@ -11,9 +13,6 @@ module.exports = {
     };
 
     // Declaring Variables
-    var percentDif; //variable to check for percentage difference check
-    var timeInterval; //time to wait before iterations in milliseconds
-    var iterations; //number of iterations to run script
     var timeIntervalSecs;
 
     var rl = readline.createInterface({
